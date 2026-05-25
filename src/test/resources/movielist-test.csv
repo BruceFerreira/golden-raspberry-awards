@@ -1,0 +1,17 @@
+year;title;studios;producers;winner
+1990;Film One;Studio A;Producer Min;yes
+1991;Film Two;Studio A;Producer Min;yes
+2000;Film Three;Studio B;Producer Max;yes
+2013;Film Four;Studio B;Producer Max;yes
+1995;Film Five;Studio C;Producer Single Win;yes
+2001;Film Six;Studio D;Producer Tie Min;yes
+2002;Film Seven;Studio D;Producer Tie Min;yes
+2005;Film Eight;Studio E;Producer Tie Max;yes
+2018;Film Nine;Studio E;Producer Tie Max;yes
+2010;Film Ten;Studio F;Producer Three Wins;yes
+2012;Film Eleven;Studio F;Producer Three Wins;yes
+2015;Film Twelve;Studio F;Producer Three Wins;yes
+1993;Film Fourteen;Studio H;Producer Three Wins Fast;yes
+1994;Film Fifteen;Studio H;Producer Three Wins Fast;yes
+2006;Film Sixteen;Studio H;Producer Three Wins Fast;yes
+2020;Film Thirteen;Studio G;No Win Producer;
