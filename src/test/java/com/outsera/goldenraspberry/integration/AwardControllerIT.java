@@ -150,4 +150,12 @@ class AwardControllerIT {
                 .andExpect(content().contentType(MediaType.APPLICATION_JSON))
                 .andExpect(jsonPath("$.code").value("METHOD_NOT_ALLOWED"));
     }
+
+    @Test
+    void shouldReturnNotFoundForUnknownRoute() throws Exception {
+        mockMvc.perform(get("/v1/unknown-route"))
+                .andExpect(status().isNotFound())
+                .andExpect(content().contentType(MediaType.APPLICATION_JSON))
+                .andExpect(jsonPath("$.code").value("NOT_FOUND"));
+    }
 }
